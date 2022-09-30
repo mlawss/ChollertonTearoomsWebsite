@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Out More - Chollerton Tearooms</title>
+    <link href="findOutMore_styles.css" rel="stylesheet" type="text/css">
+    <link href="index_styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="body">
+
+    <header class="mainHeader">
+        <img src="images/tearoomLogo.png" alt="Chollerton Tearooms logo">
+        <h1>Chollerton Tearooms</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="findOutMore.html">FIND OUT MORE</a></li>
+            <li><a href="credits.html">CREDITS</a></li>
+            <li><a href="admin.php">ADMIN</a></li>
+            <li><a href="wireframe.pdf">WIREFRAME</a></li>
+        </ul>
+    </nav>
+
+    <section class="subHeader1">
+        <h2>Find Out More</h2>
+    </section>
+
+    <div class="fomMainBody">
+        <p>If you would like more information on Chollerton Tearooms, please fill in your details below so that we can get in contact with you. Thank you.</p>
+
+        <form class="form" action="findOutMoreForm.php" method="get">
+
+            <p><b>* = required field</b></p>
+            <p></p>
+
+            Select the way you would like to receive more information:<b> *</b><br>
+            <input type="radio" name="contactMethod" value="post" required>Post<br>
+            <input type="radio" name="contactMethod" value="email" required>Email<br>
+            <input type="radio" name="contactMethod" value="sms" required>SMS<br>
+            <p></p>
+
+            Forename:<b> *</b><br>
+            <input type="text" name="forename" required><br>
+            Surname:<b> *</b><br>
+            <input type="text" name="surname" required><br>
+            Email address:<br>
+            <input type="text" name="email"><br>
+            Landline phone number:<br>
+            <input type="text" name="landPhone"><br>
+            Mobile phone number:<br>
+            <input type="text" name="mobPhone"><br>
+            Postal address:<br>
+            <input type="text" name="postAddress"><br>
+            <p></p>
+
+            What would you like to know more about?<b> *</b><br>
+            <input type="radio" name="category" value="c5" required>Bed & Breakfast<br>
+            <input type="radio" name="category" value="c2" required>Craft Shop<br>
+            <input type="radio" name="category" value="c4" required>Post Office<br>
+            <input type="radio" name="category" value="c1" required>Tearoom<br>
+            <input type="radio" name="category" value="c3" required>Village Store<br>
+            <p></p>
+
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Chollerton Tearooms.</p>
+        <p>Designed and developed by Matthew Laws.</p>
+    </footer>
+
+</body>
+
+</html>
